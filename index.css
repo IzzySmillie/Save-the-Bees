@@ -22,6 +22,11 @@ ul{
 	display:block;
 }
 
+footer{
+	background-color:#5f5137;
+	height:110px;
+}
+
 .container {
 	background-color: #e5e5e4 ; 
 	height:350px;
@@ -92,7 +97,31 @@ ul{
 	margin-bottom:20px;
 }
 
+.info{
+	color:#e0b859;
+	font-size: 0.7em;
+	text-align:center;
+	margin:0 auto;
+	padding-left:80px;
+	padding-right:50px;
+	padding-top:2px;
 
+}
+
+#contact-info{
+	padding:5px;
+	border-bottom: solid 1px #e0b859;
+	margin-right:50px;
+	margin-left:50px;
+}
+
+#copyright{
+	color:#e0b859;
+	font-size: 0.7em;
+	text-align: right;
+	padding:30px;
+	margin-right: 60px;
+}
 
 
 
