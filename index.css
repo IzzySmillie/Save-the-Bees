@@ -234,6 +234,10 @@ footer{
 
 }
 
+.info a {
+	color:#e0b859;
+}
+
 #contact-info{
 	padding:5px;
 	border-bottom: solid 1px #e0b859;
