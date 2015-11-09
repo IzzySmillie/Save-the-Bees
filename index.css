@@ -14,7 +14,6 @@ body {
 h1{
 	text-transform: uppercase;
 	font-size: 60px;
-	letter-spacing: 2px;
 	font-weight:550;
 	text-align:center;
 }
@@ -75,19 +74,30 @@ a.active{
 }
 
 #logo{
-	width:652px;
 	height:250px;
-	margin:0 auto;
+	margin:auto auto;
 
 }
 
 
 #title{
-	display:inline-block;
-	margin-top: 110px;
-	padding:5px;
+	padding:28px;
+	margin:0 auto;
 
 }
+
+#comb{
+	margin-right: -20px;
+    margin-bottom: -25px;
+
+	
+}
+
+#bee{
+	margin-left: -25px;
+
+}
+
 
 
 /* Navigation */
