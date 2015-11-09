@@ -30,11 +30,10 @@ h2{
 
 h3{
 	text-transform:uppercase;
-	font-size:1.7em;
+	font-size:1.2em;
 	font-weight:400;
 	letter-spacing:2px;
 	text-align:center;
-	padding-bottom:20px;
 }
 
 p{
@@ -174,19 +173,22 @@ a:active{
 
 #bullet-title{
 	border-bottom: solid 1px #e0b859;
+	padding-bottom:30px;
 }
 
 #help-image{
-	margin-top:20px;
-	margin-right:5px;
-	margin-bottom:20px;
-	margin-left:5px;
+	margin:30px 10px;
 }
 
 .bullet{
 	padding-top:3px;
 	margin-left: 30px;
 
+}
+
+.bullet-points{
+	position:absolute;
+	padding:10px 0;
 }
 
 
