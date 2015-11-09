@@ -144,24 +144,31 @@ a:active{
 
 #main-content{
 	width:920px;
-	margin:10px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+
+
 }
 
 #left-content{
 	background-color:#e5e5e4;
-	width:530px;	
-	margin-right: 0px;
+	width:500px;	
+	padding:34px;
+	margin-right:20px;
+	
 }
 
 
 .left-text-content{
-	padding:2px;
+	padding:5px;
 }
 
 #right-content{
 	width:250px;
 	background-color:#e5e5e4;
 	padding:40px;
+	float:right;
+	margin-left:20px;
 
 }
 
@@ -189,6 +196,7 @@ footer{
 	background-color:#5f5137;
 	height:110px;
 	position:relative;
+	display:block;
 }
 
 .info{
