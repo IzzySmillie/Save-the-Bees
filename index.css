@@ -50,6 +50,7 @@ li{
 }
 
 /* Links */
+
 a{
 	text-decoration:none;
 	color:#242322;
@@ -60,7 +61,7 @@ a:hover{
  	text-decoration:none;
 }
 
-a:active{
+a.active{
 	color:#e0b859;
  	text-decoration:none;
 }
@@ -76,7 +77,8 @@ a:active{
 #logo{
 	width:652px;
 	height:250px;
-	margin:0 auto;	
+	margin:0 auto;
+
 }
 
 
@@ -87,14 +89,6 @@ a:active{
 
 }
 
-.honeyart {
-	display:inline-block;
-	
-}
-
-.honeyart #comb {
-	margin-top:50px;
-}
 
 /* Navigation */
 
@@ -181,6 +175,7 @@ a:active{
 
 #right-content{
 	width:250px;
+	height:695px;
 	background-color:#e5e5e4;
 	padding:40px;
 	float:right;
@@ -234,6 +229,7 @@ footer{
 	border-bottom: solid 1px #e0b859;
 	margin-right:50px;
 	margin-left:50px;
+	letter-spacing:0.5px;
 }
 
 #copyright{
@@ -242,6 +238,7 @@ footer{
 	text-align: right;
 	margin-right: 60px;
 	margin-top:20px;
+	letter-spacing:0.5px;
 }
 
 
