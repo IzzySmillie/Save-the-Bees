@@ -162,6 +162,13 @@ a.active{
 	
 }
 
+.hcomb{
+	position:absolute;
+	display:inline-block;
+	margin:-36px 415px;
+
+}
+
 #main-content{
 	width:920px;
 	margin: 0 auto;
