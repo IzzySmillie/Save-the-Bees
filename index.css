@@ -286,7 +286,7 @@ a.active{
 	padding:8px 0;
 }
 
-#farmers{
+#our-farmers{
 	margin-top:400px;
 }
 
@@ -311,8 +311,18 @@ a.active{
 	font-weight:100;
 	line-height: 35px;
 	margin:0 auto;
-	
+}
 
+.farmer-pics{
+	display:inline-block;
+	background-color:#ededea;
+	padding:12px;
+	margin-top:30px;
+	margin-left:138px;
+}
+
+.farmers{
+	padding:10.5px;
 }
 
 /* Footer Section */
