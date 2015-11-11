@@ -306,6 +306,7 @@ a.active{
 	width:120px;
 	background-color: #5f5137;
 	border:1px solid #5f5137;
+	border-radius: 20px;
 	color: #ededea;
 	text-align:center;
 	font-weight:100;
@@ -408,6 +409,12 @@ a.active{
 	border-bottom: solid 1px #e0b859;
 	font-weight: 500;
 
+}
+
+.find-farm p {
+	float:right;
+	width: 395px;
+	margin:-260px 30px 0 0;
 }
 
 #map iframe{
