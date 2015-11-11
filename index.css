@@ -1,465 +1,460 @@
 *{
-	margin:0px;
-	padding:0px;
+  margin:0px;
+  padding:0px;
 }
 
 body {
-	background-color: #e0b859;
-	font-family: Montserrat; sans-serif;
-	color:#242322;
+  background-color: #e0b859;
+  font-family: Montserrat; sans-serif;
+  color:#242322;
 
 }
 
 h1{
-	text-transform: uppercase;
-	font-size: 60px;
-	font-weight:550;
-	text-align:center;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight:550;
+  text-align:center;
 }
 
 h2{
-	text-transform:uppercase;
-	font-size:3.5em;
-	font-weight:400;
-	letter-spacing:2px;
-	text-align:center;
-	padding-bottom:50px;
+  text-transform:uppercase;
+  font-size:3.5em;
+  font-weight:400;
+  letter-spacing:2px;
+  text-align:center;
+  padding-bottom:50px;
 }
 
 h3{
-	text-transform:uppercase;
-	font-size:1.2em;
-	font-weight:400;
-	letter-spacing:2px;
-	text-align:center;
+  text-transform:uppercase;
+  font-size:1.2em;
+  font-weight:400;
+  letter-spacing:2px;
+  text-align:center;
 }
 
 p{
-	font-weight:200;
+  font-weight:200;
 }
 
 ul{
-	display:block;
+  display:block;
 }
 
 li{
-	list-style-type: none;
-	font-weight:200;
+  list-style-type: none;
+  font-weight:200;
 }
 
 /* Links */
 
 a{
-	text-decoration:none;
-	color:#242322;
+  text-decoration:none;
+  color:#242322;
 }
 
 a:hover{
- 	color:#e0b859;
- 	text-decoration:none;
+  color:#e0b859;
+  text-decoration:none;
 }
 
 a.active{
-	color:#e0b859;
- 	text-decoration:none;
+  color:#e0b859;
+   text-decoration:none;
 }
 
 /* Title/logo/header */
 
 .container {
-	background-color: #e5e5e4; 
-	height:350px;
-	margin:0 auto;
+  background-color: #e5e5e4;
+  height:350px;
+  margin:0 auto;
 }
 
 #logo{
-	height:250px;
-	margin:auto auto;
+  height:250px;
+  margin:auto auto;
 
 }
 
 
 #title{
-	padding:28px;
-	margin:0 auto;
+  padding:28px;
+  margin:0 auto;
 
 }
 
 #comb{
-	margin-right: -20px;
-    margin-bottom: -25px;
-
-	
+  margin-right: -20px;
+  margin-bottom: -25px;
 }
 
 #bee{
-	margin-left: -25px;
+  margin-left: -25px;
 
 }
-
-
 
 /* Navigation */
 
 #nav-menu{
-	width:713px;
-	height:100px;
-	margin:0 auto;
-	border-top: solid 1px #e0b859;
-
+  width:713px;
+  height:100px;
+  margin:0 auto;
+  border-top: solid 1px #e0b859;
 }
 
 #nav-menu .nav{
-	display: inline-block;
-	padding-top:33px;
-	padding-bottom:26px;
-	padding-left:80px;
-	padding-right:80px;	
-	text-decoration: none;
-	text-transform:uppercase;
-	letter-spacing: 1px;
-	position:relative;
-	font-weight: 400;
+  display: inline-block;
+  padding-top:33px;
+  padding-bottom:26px;
+  padding-left:80px;
+  padding-right:80px;
+  text-decoration: none;
+  text-transform:uppercase;
+  letter-spacing: 1px;
+  position:relative;
+  font-weight: 400;
 
 }
 
 
 #home {
-	border-right:solid 1px #e0b859;
-	margin-top: 10px;
-	margin-bottom:20px;
+  border-right:solid 1px #e0b859;
+  margin-top: 10px;
+  margin-bottom:20px;
 }
 
 #about{
-	border-right:solid 1px #e0b859;
-	margin-top: 10px;
-	margin-bottom:20px;
+  border-right:solid 1px #e0b859;
+  margin-top: 10px;
+  margin-bottom:20px;
 }
 
 /* Home main body content */
 
 #carousel {
-	width:920px;
-	padding:20px;
-	margin:0 auto;
+  width:920px;
+  padding:20px;
+  margin:0 auto;
 }
 
 .cursor{
-	position:absolute;
-	margin-top:167px;
-	margin-bottom:167px;
+  position:absolute;
+  margin-top:167px;
+  margin-bottom:167px;
 }
 
 #left-c{
-	margin-right:875px;
-	margin-left:15px;
+  margin-right:875px;
+  margin-left:15px;
 }
 
 #right-c{
-	margin-right:15px;
-	margin-left:875px;
-	
+  margin-right:15px;
+  margin-left:875px;
+
 }
 
 .hcomb{
-	position:absolute;
-	display:inline-block;
-	margin:-36px 415px;
+  position:absolute;
+  display:inline-block;
+  margin:-36px 415px;
 
 }
 
 #main-content{
-	width:920px;
-	margin: 0 auto;
-	margin-bottom: 20px;
+  width:920px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 
 
 }
 
 #left-content{
-	background-color:#e5e5e4;
-	width:500px;	
-	padding:34px;
-	margin-right:20px;
-	
+  background-color:#e5e5e4;
+  width:500px;
+  padding:34px;
+  margin-right:20px;
+
 }
 
 
 .left-text-content{
-	padding:5px;
+  padding:5px;
 }
 
 #right-content{
-	width:250px;
-	height:695px;
-	background-color:#e5e5e4;
-	padding:40px;
-	float:right;
-	margin-left:20px;
+  width:250px;
+  height:695px;
+  background-color:#e5e5e4;
+  padding:40px;
+  float:right;
+  margin-left:20px;
 
 }
 
 #bullet-title{
-	border-bottom: solid 1px #e0b859;
-	padding-bottom:30px;
+  border-bottom: solid 1px #e0b859;
+  padding-bottom:30px;
 }
 
 #help-image{
-	margin:30px 10px;
+  margin:30px 10px;
 }
 
 .bullet{
-	padding-top:3px;
-	margin-left: 30px;
+  padding-top:3px;
+  margin-left: 30px;
 
 }
 
 .bullet-points{
-	position:absolute;
-	padding:10px 0;
+  position:absolute;
+  padding:10px 0;
 }
 
 /* About main body content */
 
 #main-container{
-	background-color:#e5e5e4;
-	width:920px;
-	height:960px;
-	position:relative;
-	margin:20px auto;
+  background-color:#e5e5e4;
+  width:920px;
+  height:960px;
+  position:relative;
+  margin:20px auto;
 }
 
 .farm-title{
-	font-weight: 600;
-	border-bottom: solid 1px #e0b859;
-	padding: 30px 0px 5px 0px ;
-	margin:0 137px;
-	text-align:left;
+  font-weight: 600;
+  border-bottom: solid 1px #e0b859;
+  padding: 30px 0px 5px 0px ;
+  margin:0 137px;
+  text-align:left;
 }
 
 #us{
-	margin-bottom:30px;
+  margin-bottom:30px;
 }
 
 
 .farm{
-	background-color:#ededea;
-	padding: 10px;
-	position:absolute;
-	margin:0 137px;
+  background-color:#ededea;
+  padding: 10px;
+  position:absolute;
+  margin:0 137px;
 }
 
 .farm img{
-	position: absolute;
-	margin:8px;
+  position: absolute;
+  margin:8px;
 }
 
 .awesome-farm{
-	padding:5px;
-	float:right;
-	margin-right:45px;
-	position:relative;
+  padding:5px;
+  float:right;
+  margin-right:45px;
+  position:relative;
 }
 
 .farm-text{
-	float:right;
-	width:320px;
-	position: relative;
-	padding:3px;
-	margin:10px;
-	font-size:1em;
+  float:right;
+  width:320px;
+  position: relative;
+  padding:3px;
+  margin:10px;
+  font-size:1em;
 
 }
 
 .farm-contact{
-	float:left;
-	width:269px;
-	position:relative;
-	padding:1px;
-	margin-top:290px;
-	margin-left:154px;
-	font-size:0.8em;
+  float:left;
+  width:269px;
+  position:relative;
+  padding:1px;
+  margin-top:290px;
+  margin-left:154px;
+  font-size:0.8em;
 }
 
 #opening{
-	padding:8px 0;
+  padding:8px 0;
 }
 
 #our-farmers{
-	margin-top:400px;
+  margin-top:400px;
 }
 
 .join-us{
-	margin:70px auto;
+  margin:70px auto;
 
 }
 
 .join{
-	text-align:center;
-	margin:10px;
+  text-align:center;
+  margin:10px;
 }
 
 .button a{
-	display:block;
-	height:35px;
-	width:120px;
-	background-color: #5f5137;
-	border:1px solid #5f5137;
-	border-radius: 20px;
-	color: #ededea;
-	text-align:center;
-	font-weight:100;
-	line-height: 35px;
-	margin:0 auto;
+  display:block;
+  height:35px;
+  width:120px;
+  background-color: #5f5137;
+  border:1px solid #5f5137;
+  border-radius: 20px;
+  color: #ededea;
+  text-align:center;
+  font-weight:100;
+  line-height: 35px;
+  margin:0 auto;
 }
 
 .button a:hover{
-	color:#e0b859;
- 	text-decoration:none;
+  color:#e0b859;
+   text-decoration:none;
 }
 
 .farmer-pics{
-	display:inline-block;
-	background-color:#ededea;
-	padding:12px;
-	margin-top:30px;
-	margin-left:138px;
+  display:inline-block;
+  background-color:#ededea;
+  padding:12px;
+  margin-top:30px;
+  margin-left:138px;
 }
 
 .farmers{
-	padding:10.5px;
+  padding:10.5px;
 }
 
 /*Shop main body content*/
 
 .shop-container{
-	background-color:#e5e5e4;
-	width:920px;
-	height:580px;
-	margin:20px auto;
+  background-color:#e5e5e4;
+  width:920px;
+  height:580px;
+  margin:20px auto;
 }
 
 .shop-container img{
-	position:absolute;
-	margin:45px 20px;
+  position:absolute;
+  margin:45px 20px;
 }
 
 .shop-container h2{
-	font-size: 2em;
-	padding:10px;
-	float:right;
-	margin:26px 125px;
-	position:relative;
-	text-transform: none;
+  font-size: 2em;
+  padding:10px;
+  float:right;
+  margin:26px 125px;
+  position:relative;
+  text-transform: none;
 }
 
 .shop-container h3{
-	float:right;
-	position:relative;
-	margin:78px -300px;
-	margin-bottom: 0;
-	text-transform: none;
-	font-weight: 100;
+  float:right;
+  position:relative;
+  margin:78px -300px;
+  margin-bottom: 0;
+  text-transform: none;
+  font-weight: 100;
 }
 
 .shop-container p{
-	float:right;
-	width:420px;
+  float:right;
+  width:420px;
 }
 
 .honey-description{
-	margin:120px -448px;
+  margin:120px -448px;
 }
 
 .shop-description{
-	margin:180px -448px;
+  margin:180px -448px;
 }
 
 .price{
-	margin:280px -448px;
-	font-weight: 500;
-	font-size: 1.2em;
+  margin:280px -448px;
+  font-weight: 500;
+  font-size: 1.2em;
 }
 
 .cart-button{
-	position: relative;
-	margin:360px -447px;
-	margin-bottom:0;
-	text-align:center;
-	padding:14px 2px;
-	background-color: #000;
-	color:#ededea;
-	border-radius: 5px;
+  position: relative;
+  margin:360px -447px;
+  margin-bottom:0;
+  text-align:center;
+  padding:14px 2px;
+  background-color: #000;
+  color:#ededea;
+  border-radius: 5px;
 }
 
 /* Find honey farm/google map */
 
 .find-farm{
-	background-color:#e5e5e4;
-	margin:20px auto;
-	width:920px;
+  background-color:#e5e5e4;
+  margin:20px auto;
+  width:920px;
 }
 
 .find-farm h3{
-	float:right;
-	margin-top:-342px;
-	margin-right:60px;
-	padding:5px 0 20px 0 ;
-	border-bottom: solid 1px #e0b859;
-	font-weight: 500;
+  float:right;
+  margin-top:-342px;
+  margin-right:60px;
+  padding:5px 0 20px 0 ;
+  border-bottom: solid 1px #e0b859;
+  font-weight: 500;
 
 }
 
 .find-farm p {
-	float:right;
-	width: 395px;
-	margin:-270px 30px 0 0;
+  float:right;
+  width: 395px;
+  margin:-270px 30px 0 0;
 }
 
 #map iframe{
-	margin:10px;
-	position:relative;
+  margin:10px;
+  position:relative;
 }
 
 /* Footer Section */
 
 footer{
-	background-color:#5f5137;
-	height:110px;
-	position:relative;
-	display:block;
+  background-color:#5f5137;
+  height:110px;
+  position:relative;
+  display:block;
 }
 
 .info{
-	color:#e0b859;
-	font-size: 0.7em;
-	text-align:center;
-	margin:0 auto;
-	padding-left:80px;
-	padding-right:50px;
-	padding-top:2px;
+  color:#e0b859;
+  font-size: 0.7em;
+  text-align:center;
+  margin:0 auto;
+  padding-left:80px;
+  padding-right:50px;
+  padding-top:2px;
 
 }
 
 .info a {
-	color:#e0b859;
+  color:#e0b859;
 }
 
 #contact-info{
-	padding:5px;
-	border-bottom: solid 1px #e0b859;
-	margin-right:50px;
-	margin-left:50px;
-	letter-spacing:0.5px;
+  padding:5px;
+  border-bottom: solid 1px #e0b859;
+  margin-right:50px;
+  margin-left:50px;
+  letter-spacing:0.5px;
 }
 
 #copyright{
-	color:#e0b859;
-	font-size: 0.7em;
-	text-align: right;
-	margin-right: 60px;
-	margin-top:20px;
-	letter-spacing:0.5px;
+  color:#e0b859;
+  font-size: 0.7em;
+  text-align: right;
+  margin-right: 60px;
+  margin-top:20px;
+  letter-spacing:0.5px;
 }
 
 
