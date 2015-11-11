@@ -330,6 +330,51 @@ a.active{
 	padding:10.5px;
 }
 
+/*Shop main body content*/
+
+.shop-container{
+	background-color:#e5e5e4;
+	width:920px;
+	height:580px;
+	margin:20px auto;
+}
+
+.shop-container img{
+	position:absolute;
+	margin:45px 20px;
+}
+
+.shop-container h2{
+	font-size: 2em;
+	padding:10px;
+	float:right;
+	margin:26px 125px;
+	position:relative;
+	text-transform: none;
+}
+
+.shop-container h3{
+	float:right;
+	position:relative;
+	margin:78px -304px;
+	margin-bottom: 0;
+	text-transform: none;
+	font-weight: 100;
+}
+
+.shop-container p{
+	float:right;
+	width:420px;
+}
+
+.honey-description{
+	margin:120px -448px;
+}
+
+.shop-description{
+	margin:180px -448px;
+}
+
 /* Footer Section */
 
 footer{
