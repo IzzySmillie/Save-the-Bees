@@ -356,7 +356,7 @@ a.active{
 .shop-container h3{
 	float:right;
 	position:relative;
-	margin:78px -304px;
+	margin:78px -300px;
 	margin-bottom: 0;
 	text-transform: none;
 	font-weight: 100;
@@ -375,6 +375,22 @@ a.active{
 	margin:180px -448px;
 }
 
+.price{
+	margin:280px -448px;
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+.cart-button{
+	position: relative;
+	margin:360px -447px;
+	margin-bottom:0;
+	text-align:center;
+	padding:14px 2px;
+	background-color: #000;
+	color:#ededea;
+	border-radius: 5px;
+}
 /* Footer Section */
 
 footer{
