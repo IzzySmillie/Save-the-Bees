@@ -391,6 +391,30 @@ a.active{
 	color:#ededea;
 	border-radius: 5px;
 }
+
+/* Find honey farm/google map */
+
+.find-farm{
+	background-color:#e5e5e4;
+	margin:20px auto;
+	width:920px;
+}
+
+.find-farm h3{
+	float:right;
+	margin-top:-342px;
+	margin-right:60px;
+	padding:5px 0 20px 0 ;
+	border-bottom: solid 1px #e0b859;
+	font-weight: 500;
+
+}
+
+#map iframe{
+	margin:10px;
+	position:relative;
+}
+
 /* Footer Section */
 
 footer{
