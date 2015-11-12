@@ -317,6 +317,7 @@ a.active{
   padding:12px;
   margin-top:30px;
   margin-left:138px;
+  margin-right:138px;
 }
 
 .farm-container{
@@ -338,8 +339,21 @@ a.active{
   opacity:0;
 }
 
-.farm-container:hover .overlay{
-    opacity:0.6;
+.overlay p{
+  color: #ededea;
+  text-align:center;
+  font-weight:200;
+  margin-top:55px;
+  padding:5px;
+  background-color:#5f5137;
+}
+
+.farm-container:hover .overlay {
+  opacity:0.8;
+}
+
+.farm-container:hover .overlay p{
+  opacity:1;
 }
 
 
