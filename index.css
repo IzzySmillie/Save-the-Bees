@@ -204,6 +204,7 @@ a.active{
   padding-left:20px;
   line-height:20px;
   background:url(images/bulletpoint.png)no-repeat left center;
+  background-position:left 0 top 4px;
 }
 
 #help-image{
