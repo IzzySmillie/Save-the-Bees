@@ -386,6 +386,16 @@ a.active{
   border-radius: 5px;
 }
 
+.cart-button a{
+  color:#ededea;
+}
+
+.cart-button a:hover{
+  color:#e0b859;
+  text-decoration:none;
+}
+
+
 /* Find honey farm/google map */
 
 .find-farm{
