@@ -309,20 +309,39 @@ a.active{
 
 .button a:hover{
   color:#e0b859;
-   text-decoration:none;
+  text-decoration:none;
 }
 
 .farmer-pics{
-  display:inline-block;
   background-color:#ededea;
   padding:12px;
   margin-top:30px;
   margin-left:138px;
 }
 
+.farm-container{
+  position:relative;
+  display:inline-block;
+}
+
 .farmers{
   padding:10.5px;
 }
+
+.overlay{
+  position:absolute;
+  background-color:#5f5137;
+  width:130px;
+  height:130px;
+  top:10.5px;
+  left:10.5px;
+  opacity:0;
+}
+
+.farm-container:hover .overlay{
+    opacity:0.6;
+}
+
 
 /*Shop main body content*/
 
