@@ -45,9 +45,6 @@ ul{
 li{
   list-style-type: none;
   font-weight:200;
-  margin-bottom:5px;
-  margin-left:10px;
-  background:url(images/bulletpoint.png)no-repeat left center;
 }
 
 /* Links */
@@ -203,10 +200,10 @@ a.active{
 }
 
 .bullet{
-  margin-left:5px;
-  margin-bottom:20px;
+  margin:0 0 20px 10px;
   padding-left:20px;
   line-height:20px;
+  background:url(images/bulletpoint.png)no-repeat left center;
 }
 
 #help-image{
