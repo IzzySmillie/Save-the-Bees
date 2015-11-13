@@ -139,6 +139,10 @@ a.active{
   margin:0 auto;
 }
 
+.carousel-img{
+  $('.single-item').slick();
+}
+
 .cursor{
   position:absolute;
   margin-top:167px;
