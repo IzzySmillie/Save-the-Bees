@@ -141,26 +141,6 @@ a.active{
 
 /* Home main body content */
 
-.carousel-img{
-  $('.single-item').slick();
-}
-
-.cursor{
-  position:absolute;
-  margin-top:167px;
-  margin-bottom:167px;
-}
-
-#left-c{
-  margin-right:875px;
-  margin-left:15px;
-}
-
-#right-c{
-  margin-right:15px;
-  margin-left:875px;
-}
-
 .hcomb{
   position:absolute;
   display:inline-block;
@@ -199,8 +179,6 @@ a.active{
 #help-image{
   margin:30px 10px;
 }
-
-
 
 /* About main body content */
 
