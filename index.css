@@ -426,8 +426,6 @@ a.active{
 footer{
   background-color:#5f5137;
   height:110px;
-  position:relative;
-  display:block;
 }
 
 .info{
@@ -435,8 +433,6 @@ footer{
   font-size: 0.7em;
   text-align:center;
   margin:0 auto;
-  padding-left:80px;
-  padding-right:50px;
   padding-top:2px;
 
 }
