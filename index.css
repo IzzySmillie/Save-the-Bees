@@ -203,29 +203,21 @@ a.active{
   height:350px;
 }
 
-.farm img{
+.farm-detail{
   float:left;
-  margin:10px;
+  padding:15px;
 }
 
-.awesome-farm{
-  padding:5px;
-  float:right;
-  margin-right:65px;
+.farm-description{
+  padding:12px 10px;
 }
 
-
-.farm-text-top{
-  padding:40px 10px 0;
-}
-
-.farm-text-second{
-  padding-right:10px;
+.farm-description h3{
+  padding-bottom:8px;
 }
 
 .farm-contact{
-  float:left;
-  padding-left:10px;
+  padding-top: 5px;
   font-size:0.8em;
 }
 
@@ -239,7 +231,6 @@ a.active{
 
 .join-us{
   margin:70px auto;
-
 }
 
 .join{
