@@ -229,22 +229,27 @@ a.active{
 
 .farm img{
   float:left;
-  margin:8px;
+  margin:10px;
 }
 
 .awesome-farm{
   padding:5px;
   float:right;
-  margin-right:45px;
+  margin-right:65px;
 }
 
-.farm p{
-  padding 3px;
+
+.farm-text-top{
+  padding:40px 10px 0;
+}
+
+.farm-text-second{
+  padding-right:10px;
 }
 
 .farm-contact{
   float:left;
-  padding:1px;
+  padding-left:10px;
   font-size:0.8em;
 }
 
