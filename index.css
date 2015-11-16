@@ -54,7 +54,7 @@ li{
 }
 
 .panel{
-    background-color:#e5e5e4;
+  background-color:#e5e5e4;
 }
 
 /* Links */
@@ -143,12 +143,6 @@ a.active{
 
 /* Home main body content */
 
-#carousel {
-  width:920px;
-  padding:20px;
-  margin:0 auto;
-}
-
 .carousel-img{
   $('.single-item').slick();
 }
@@ -167,32 +161,18 @@ a.active{
 #right-c{
   margin-right:15px;
   margin-left:875px;
-
 }
 
 .hcomb{
   position:absolute;
   display:inline-block;
   margin:-36px 415px;
-
-}
-
-#main-content{
-  width:920px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-
-
 }
 
 #left-content{
-  background-color:#e5e5e4;
   width:500px;
   padding:34px;
-  margin-right:20px;
-
 }
-
 
 .left-text-content{
   padding:5px;
@@ -201,11 +181,8 @@ a.active{
 #right-content{
   width:250px;
   height:695px;
-  background-color:#e5e5e4;
   padding:40px;
   float:right;
-  margin-left:20px;
-
 }
 
 #bullet-title{
@@ -367,19 +344,16 @@ a.active{
 
 /*Shop main body content*/
 
-.shop-container{
-  background-color:#e5e5e4;
-  width:920px;
+#shop-container{
   height:580px;
-  margin:20px auto;
 }
 
-.shop-container img{
+#shop-container img{
   position:absolute;
   margin:45px 20px;
 }
 
-.shop-container h2{
+#shop-container h2{
   font-size: 2em;
   padding:10px;
   float:right;
@@ -388,7 +362,7 @@ a.active{
   text-transform: none;
 }
 
-.shop-container h3{
+#shop-container h3{
   float:right;
   position:relative;
   margin:78px -300px;
@@ -397,7 +371,7 @@ a.active{
   font-weight: 100;
 }
 
-.shop-container p{
+#shop-container p{
   float:right;
   width:420px;
 }
@@ -439,13 +413,11 @@ a.active{
 
 /* Find honey farm/google map */
 
-.find-farm{
-  background-color:#e5e5e4;
-  margin:20px auto;
-  width:920px;
+#find-farm{
+  margin:20px 0;
 }
 
-.find-farm h3{
+#find-farm h3{
   float:right;
   margin-top:-342px;
   margin-right:60px;
@@ -455,7 +427,7 @@ a.active{
 
 }
 
-.find-farm p {
+#find-farm p {
   float:right;
   width: 395px;
   margin:-270px 30px 0 0;
