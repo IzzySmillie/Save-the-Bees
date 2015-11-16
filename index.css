@@ -221,15 +221,14 @@ a.active{
   margin-bottom:30px;
 }
 
-
 .farm{
   background-color:#ededea;
-  padding: 10px;
-  position:absolute;
+  width:100%;
+  height:350px;
 }
 
 .farm img{
-  position: absolute;
+  float:left;
   margin:8px;
 }
 
@@ -237,28 +236,15 @@ a.active{
   padding:5px;
   float:right;
   margin-right:45px;
-  position:relative;
 }
 
 .farm p{
-  float:right;
-  width:320px;
-  position:relative;
   padding 3px;
-  font-size:1em;
-}
-
-.farm-text{
-
 }
 
 .farm-contact{
   float:left;
-  width:269px;
-  position:relative;
   padding:1px;
-  margin-top:290px;
-  margin-left:17px;
   font-size:0.8em;
 }
 
@@ -267,7 +253,7 @@ a.active{
 }
 
 #our-farmers{
-  margin-top:400px;
+  margin-top:10px;
 }
 
 .join-us{
@@ -301,17 +287,14 @@ a.active{
 
 .farmer-pics{
   background-color:#ededea;
-  padding:12px;
   margin-top:30px;
+  width:100%;
 }
 
 .farm-container{
-  position:relative;
   display:inline-block;
-}
-
-.farmers{
-  padding:10.5px;
+  margin:16.5px;
+  position:relative;
 }
 
 .overlay{
@@ -319,8 +302,8 @@ a.active{
   background-color:#5f5137;
   width:130px;
   height:130px;
-  top:10.5px;
-  left:10.5px;
+  top:0px;
+  left:0px;
   opacity:0;
 }
 
