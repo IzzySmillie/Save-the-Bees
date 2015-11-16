@@ -221,17 +221,17 @@ a.active{
 
 #main-container{
   background-color:#e5e5e4;
-  width:920px;
+  width:669px;
   height:960px;
   position:relative;
   margin:20px auto;
+  padding:0 125.5px;
 }
 
 .farm-title{
   font-weight: 600;
   border-bottom: solid 1px #e0b859;
   padding: 30px 0px 5px 0px ;
-  margin:0 137px;
   text-align:left;
 }
 
@@ -244,7 +244,6 @@ a.active{
   background-color:#ededea;
   padding: 10px;
   position:absolute;
-  margin:0 137px;
 }
 
 .farm img{
@@ -320,8 +319,6 @@ a.active{
   background-color:#ededea;
   padding:12px;
   margin-top:30px;
-  margin-left:138px;
-  margin-right:138px;
 }
 
 .farm-container{
