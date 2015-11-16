@@ -47,6 +47,13 @@ li{
   font-weight:200;
 }
 
+.main-container{
+  width:920px;
+  height:960px;
+  position:relative;
+  margin:20px auto;
+}
+
 /* Links */
 
 a{
@@ -219,13 +226,9 @@ a.active{
 
 /* About main body content */
 
-#main-container{
+#about-panel{
   background-color:#e5e5e4;
-  width:669px;
-  height:960px;
-  position:relative;
-  margin:20px auto;
-  padding:0 125.5px;
+  padding:10px 125.5px;
 }
 
 .farm-title{
@@ -258,13 +261,15 @@ a.active{
   position:relative;
 }
 
-.farm-text{
+.farm p{
   float:right;
   width:320px;
-  position: relative;
-  padding:3px;
-  margin:10px;
+  position:relative;
+  padding 3px;
   font-size:1em;
+}
+
+.farm-text{
 
 }
 
@@ -274,7 +279,7 @@ a.active{
   position:relative;
   padding:1px;
   margin-top:290px;
-  margin-left:154px;
+  margin-left:17px;
   font-size:0.8em;
 }
 
