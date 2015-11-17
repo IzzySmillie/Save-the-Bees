@@ -171,10 +171,14 @@ a.active{
   font-size:0;
 }
 
-.main-container .slick-dots li button::after{
+.main-container .slick-dots li button{
   background:url('images/honeycomb-sprite.png') no-repeat 0 -22px;
   width:24px;
   height:21px;
+}
+
+.main-container .slick-dots li.slick-active button:before{
+  opacity:1;
 }
 
 
