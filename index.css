@@ -141,6 +141,11 @@ a.active{
 
 /* Home main body content */
 
+.arrow{
+  color:#e5e5e4;
+}
+
+
 .hcomb{
   position:absolute;
   display:inline-block;
