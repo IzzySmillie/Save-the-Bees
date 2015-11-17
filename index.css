@@ -141,19 +141,11 @@ a.active{
 
 /* Home main body content */
 
-.main-container .slick-slider{
-  margin-bottom:20px;
-}
-
-.main-container .slick-dots{
-  bottom:11px;
-}
-
 .arrow{
   color:#e5e5e4;
   position: absolute;
   z-index:100;
-   top:155px;
+  top:155px;
 }
 
 .arrow-r{
@@ -164,10 +156,24 @@ a.active{
   right:5px;
 }
 
-.hcomb{
-  position:absolute;
-  display:inline-block;
-  margin:-50px 415px;
+.main-container .slick-slider{
+  margin-bottom:20px;
+}
+
+.main-container .slick-dots{
+  bottom:11px;
+}
+
+.main-container .slick-dots li button::before{
+  background:url('images/honeycomb-sprite.png') no-repeat 0 0px;
+  width:24px;
+  height:21px;
+}
+
+.main-container .slick-dots li button::after{
+  background:url('images/honeycomb-sprite.png') no-repeat 0 -22px;
+  width:24px;
+  height:21px;
 }
 
 #left-content{
