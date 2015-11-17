@@ -141,10 +141,25 @@ a.active{
 
 /* Home main body content */
 
-.arrow{
-  color:#e5e5e4;
+.main-container .slick-slider{
+  margin-bottom:20px;
 }
 
+.arrow{
+  color:#e5e5e4;
+  position: absolute;
+  z-index:100;
+}
+
+.arrow-r{
+ right:5px;
+ top:155px;
+}
+
+.arrow-l{
+  top:155px;
+  left:5px;
+}
 
 .hcomb{
   position:absolute;
