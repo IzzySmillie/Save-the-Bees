@@ -49,12 +49,24 @@
           var map;
           function initMap(){
               map = new google.maps.Map(document.getElementById('map'),{
-              zoom:14,
+              zoom:12,
               center:{lat:50.831656,lng: -0.168148}
             });
 
             var marker = new google.maps.Marker({
               position:new google.maps.LatLng(50.835071,-0.156904 ),
+              icon: 'images/honeypotmap.png',
+              map:map
+            });
+
+            var marker = new google.maps.Marker({
+              position:new google.maps.LatLng(50.818549,-0.101844 ),
+              icon: 'images/honeypotmap.png',
+              map:map
+            });
+
+            var marker = new google.maps.Marker({
+              position:new google.maps.LatLng(50.822438,-1.567613),
               icon: 'images/honeypotmap.png',
               map:map
             });
