@@ -146,6 +146,7 @@ a.active{
   position: absolute;
   z-index:100;
   top:155px;
+  cursor:pointer;
 }
 
 .arrow-r{
