@@ -406,32 +406,31 @@ a.active{
 
 #find-farm{
   margin:20px 0;
+  padding:20px;
+}
+
+#honeyfarm-text{
+  padding-bottom: 50px;
 }
 
 #find-farm h3{
-  float:right;
-  margin-top:-342px;
-  margin-right:60px;
-  padding:5px 0 20px 0 ;
   border-bottom: solid 1px #e0b859;
   font-weight: 500;
+  padding:10px 0 20px;
+  width:400px;
+  float:right;
 
 }
 
 #find-farm p {
-  float:right;
-  width: 395px;
-  margin:-270px 30px 0 0;
+  padding-top:80px;
 }
 
- #map{
+#map{
   width:460px;
   height:340px;
-}
-
-#map iframe{
-  margin:10px;
-  position:relative;
+  float:left;
+  margin-right: 20px;
 }
 
 /* Footer Section */
