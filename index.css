@@ -530,6 +530,9 @@ footer{
   #shop{
     margin: 0 100px;
   }
+  .arrow{
+    top:82px;
+  }
 }
 
 @media (max-width:400px){
@@ -563,6 +566,12 @@ footer{
   }
    #shop{
     margin: 0 77px;
+  }
+  .arrow{
+    top:44px;
+  }
+  .main-container .fa-4x{
+    font-size:3em;
   }
 }
 
