@@ -481,6 +481,9 @@ footer{
  /* Media Queries */
 
  @media (max-width:920px){
+
+/* Home */
+
   .main-container{
     max-width:95%;
   }
@@ -498,9 +501,21 @@ footer{
   #right-content h3{
     font-size:2em;
   }
+
+/* About */
+
+.farm{
+  height:inherit;
+}
+.farm-container{
+  margin: 9.5px
+}
 }
 
 @media (max-width:600px){
+
+/* Home */
+
   .main-container{
     max-width:93%;
   }
@@ -529,9 +544,32 @@ footer{
   .arrow{
     top:82px;
   }
+
+/* About */
+
+  #about-panel {
+  padding: 5px 25.5px;
+}
+.farm-description{
+  padding:12px 5px;
+}
+.farm-description p{
+  font-size:0.9em;
+}
+.farm{
+  height:inherit;
+}
+.farm-container{
+  margin: 16.5px 55px;
+}
+.farm-detail{
+  padding:10px 10px 0px 10px;
 }
 
 @media (max-width:400px){
+
+/* Home */
+
   .main-container{
     max-width:90%;
   }
@@ -569,6 +607,18 @@ footer{
   .main-container .fa-4x{
     font-size:3em;
   }
+
+/* About */
+
+.farm-description{
+  padding:12px 15px 25px 15px;
+}
+.farm-detail{
+  padding:10px;
+}
+.farm-container{
+  margin:16.5px 78px;
+}
 }
 
 
