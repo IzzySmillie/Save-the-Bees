@@ -583,6 +583,57 @@ h3{
   padding:10px 10px 0px 10px;
 }
 
+/* Shop */
+
+#shop-container{
+  height:inherit;
+  padding:20px 62px 30px;
+}
+
+#shop-container img{
+  margin:0px;
+}
+#shop-container h2{
+  float:none;
+  margin:0px;
+}
+#shop-container h3{
+  float:none;
+  margin:0px;
+}
+#shop-container p{
+  float:none;
+  padding:10px 0px;
+  text-align:center;
+  width:inherit;
+}
+.price{
+  margin:0px;
+}
+.cart-button{
+  margin:0px;
+}
+.shop-description{
+  margin:0px;
+}
+.honey-description{
+  margin:0px;
+}
+#shop-container img{
+  position:static;
+}
+#map{
+  margin: 0px 0px 20px 20px;
+}
+#find-farm h3{
+  float:none;
+}
+#find-farm p{
+  padding:10px;
+}
+#honeyfarm-text{
+  padding:0px;
+}
 @media (max-width:400px){
 
 /* Home */
