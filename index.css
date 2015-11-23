@@ -687,6 +687,16 @@ h3{
 .farm-container{
   margin:16.5px 78px;
 }
+
+/* Shop */
+#find-farm p{
+  text-align:center;
+}
+#map{
+  margin:10px 0px;
+  width:300px;
+  height:300px;
+}
 }
 
 
