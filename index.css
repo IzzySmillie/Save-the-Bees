@@ -92,14 +92,11 @@ a.active{
   height:250px;
   margin:auto auto;
   width:100%;
-
 }
-
 
 #title{
   padding:28px;
   margin:0 auto;
-
 }
 
 #comb{
@@ -109,13 +106,13 @@ a.active{
 
 #bee{
   margin-left: -25px;
-
 }
 
 /* Navigation */
 
 #nav-menu{
-  width:713px;
+  max-width:713px;
+  width:100%;
   height:100px;
   margin:0 auto;
   border-top: solid 1px #e0b859;
@@ -123,27 +120,19 @@ a.active{
 
 #nav-menu .nav{
   display: inline-block;
-  padding-top:33px;
-  padding-bottom:26px;
-  padding-left:80px;
-  padding-right:80px;
+  padding:33px 80px 26px 80px;
   text-decoration: none;
   text-transform:uppercase;
   letter-spacing: 1px;
-  position:relative;
   font-weight: 400;
 }
 
 #home {
   border-right:solid 1px #e0b859;
-  margin-top: 10px;
-  margin-bottom:20px;
 }
 
 #about{
   border-right:solid 1px #e0b859;
-  margin-top: 10px;
-  margin-bottom:20px;
 }
 
 /* Home main body content */
@@ -479,225 +468,161 @@ footer{
   letter-spacing:0.5px;
 }
 
- /* Media Queries */
+  /* Media Queries */
 
- @media (max-width:920px){
-
-/* Home */
-
+@media (min-width:400px)and (max-width:580px){
   .main-container{
-    max-width:95%;
+    width:93%;
+    margin:10px auto;
   }
+
   #left-content{
+    width:88%;
+    padding:20px;
     float:none;
-    margin:0 auto;
-    margin-bottom:20px;
-    max-width:804px;
   }
+
   #right-content{
+    width:90%;
+    margin:20px auto;
     float:none;
-    margin:0 auto;
-    max-width:804px;
-  }
-  #right-content h3{
-    font-size:2em;
   }
 
-/* About */
-
-.farm{
-  height:inherit;
-}
-.farm-container{
-  margin: 9.5px
-}
-
-/* Shop */
-
-#shop-info{
-  padding:2px;
-}
-#shop-container p{
-  width:370px;
-}
-#find-farm h3{
-  padding:10px 12px 17px;
-  width:inherit;
-}
-h3{
-  letter-spacing: 0px;
-}
-}
-
-@media (max-width:600px){
-
-/* Home */
-
-  .main-container{
-    max-width:93%;
-  }
-  #left-content{
-    float:none;
-    margin:0 auto;
-    margin-bottom:20px;
-  }
-  #right-content{
-    float:none;
-    margin:0 auto;
-  }
-  #logo{
-    width:67%;
-  }
-  #nav-menu{
-    width:76%;
-    margin:70px auto;
-  }
-  #nav-menu .nav{
-    padding:22px 40px;
-  }
-  .container{
-    height:470px;
-  }
-  .arrow{
-    top:82px;
-  }
-
-/* About */
-
-  #about-panel {
-  padding: 5px 25.5px;
-}
-.farm-description{
-  padding:12px 5px;
-}
-.farm-description p{
-  font-size:0.9em;
-}
-.farm{
-  height:inherit;
-}
-.farm-container{
-  margin: 16.5px 55px;
-}
-.farm-detail{
-  padding:10px 10px 0px 10px;
-}
-
-/* Shop */
-
-#shop-container{
-  height:inherit;
-  padding:20px 62px 30px;
-}
-
-#shop-container img{
-  margin:0px;
-}
-#shop-container h2{
-  float:none;
-  margin:0px;
-}
-#shop-container h3{
-  float:none;
-  margin:0px;
-}
-#shop-container p{
-  float:none;
-  padding:10px 0px;
-  text-align:center;
-  width:inherit;
-}
-.price{
-  margin:0px;
-}
-.cart-button{
-  margin:0px;
-}
-.shop-description{
-  margin:0px;
-}
-.honey-description{
-  margin:0px;
-}
-#shop-container img{
-  position:static;
-}
-#map{
-  margin: 0px 0px 20px 20px;
-}
-#find-farm h3{
-  float:none;
-}
-#find-farm p{
-  padding:10px;
-}
-#honeyfarm-text{
-  padding:0px;
-}
-@media (max-width:400px){
-
-/* Home */
-
-  .main-container{
-    max-width:90%;
-  }
-  #left-content{
-    float:none;
-    margin:0 auto;
-    margin-bottom:10px;
-  }
-  #right-content{
-    float:none;
-    margin:0 auto;
-  }
-  #logo{
-    width:64%;
-  }
-  h1{
-    font-size:50px;
-  }
   h2{
-    font-size:2.8em;
+    font-size:2.5em;
+    padding-bottom:30px;
   }
+
+  .main-container .slick-slider{
+    margin:15px 0px ;
+  }
+
+  .container{
+    height:400px;
+  }
+
+  #logo{
+  height:315px;
+  }
+
   #nav-menu{
-    width:76%;
-    height:20%;
-    margin:106px auto;
+  width:95%;
   }
+
   #nav-menu .nav{
-    padding:13px 20px 13px 20px;
-    font-weight:200;
-    font-size:0.9em;
+  padding:25px 30px 25px 30px;
+  font-weight:300;
+  margin:5px 0px;
   }
+
   .arrow{
-    top:44px;
+    top:50px;
   }
+
   .main-container .fa-4x{
     font-size:3em;
   }
-
-/* About */
-
-.farm-description{
-  padding:12px 15px 25px 15px;
-}
-.farm-detail{
-  padding:10px 15px;
-}
-.farm-container{
-  margin:16.5px 78px;
 }
 
-/* Shop */
-#find-farm p{
-  text-align:center;
+@media (min-width:580px) and (max-width:600px){
+  .main-container{
+    width:95%;
+    margin:10px auto;
+  }
+
+  #left-content{
+    width:90%;
+    padding:28px;
+    float:none;
+  }
+
+  #right-content{
+    width:100%;
+    padding:40px;
+    margin:20px auto;
+    float:inherit;
+  }
+
+  .arrow{
+    top:90px;
+  }
+
+  .container{
+    height:420px;
+  }
+
+  #nav-menu{
+    width:90%;
+    margin:60px auto;
+  }
+
+  #nav-menu .nav{
+    padding:25px 55px;
+  }
+
+  #title{
+    padding:23px 126px;
+  }
+
+  h1{
+    font-size:3.8em;
+  }
 }
-#map{
-  margin:10px 0px;
-  width:300px;
-  height:300px;
+@media (min-width:601px) and (max-width:699px){
+  .main-container{
+    width:96%;
+    margin:20px auto;
+  }
+
+  #nav-menu{
+    width:86%;
+  }
+
+  #nav-menu .nav{
+    padding:33px 50px 26px 50px;
+  }
+
+  #left-content{
+    float:none;
+    max-width:inherit;
+  }
+
+  #right-content{
+    float:none;
+    margin:auto;
+  }
 }
+
+@media (min-width:700px) and (max-width:912px){
+  .main-container{
+    width:96%;
+    margin:20px auto;
+  }
+
+    #left-content{
+    max-width:inherit;
+    padding:34px 30px;
+    float:none;
+  }
+
+  #right-content{
+    float:none;
+    margin:0px auto;
+  }
+
+  ul{
+    padding-bottom: 76px;
+  }
 }
+
+@media (min-width:914px) and (max-width:960px){
+  .main-container{
+    width:98%;
+    margin:20px auto;
+  }
+
+}
+
 
 
 
