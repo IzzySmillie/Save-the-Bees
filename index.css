@@ -5,7 +5,7 @@
 
 body {
   background-color: #e0b859;
-  font-family: Montserrat; sans-serif;
+  font-family: Montserrat,helvetica,sans-serif;
   color:#242322;
 
 }
@@ -125,6 +125,7 @@ a.active{
   text-transform:uppercase;
   letter-spacing: 1px;
   font-weight: 400;
+    margin:5px 0px;
 }
 
 #home {
@@ -469,15 +470,71 @@ footer{
 }
 
   /* Media Queries */
-
-@media (min-width:400px)and (max-width:580px){
+@media (min-width:320px)and (max-width:399px){
   .main-container{
     width:93%;
     margin:10px auto;
   }
 
   #left-content{
-    width:88%;
+    max-width:inherit;
+    float:none;
+    padding:18px;
+  }
+
+  h2{
+    font-size:2.1em;
+    padding-bottom:20px;
+  }
+
+  #help-image{
+    margin:30px auto;
+  }
+
+  .container{
+    height:400px;
+}
+
+  #logo{
+    width:65%;
+  }
+
+  #title{
+    font-size:3em;
+    padding:10px;
+  }
+
+  #nav-menu{
+    width:90%;
+    margin:68px auto 0;
+  }
+
+  #nav-menu .nav{
+    padding:14px 18px;
+    font-size:0.7em;
+  }
+
+  a{
+    padding:5px;
+  }
+
+  .main-container .fa-4x{
+    font-size:2.5em;
+  }
+
+  .arrow{
+    top:40px;
+  }
+}
+
+@media (min-width:400px)and (max-width:579px){
+  .main-container{
+    width:93%;
+    margin:10px auto;
+  }
+
+  #left-content{
+    max-width:inherit;
     padding:20px;
     float:none;
   }
@@ -506,13 +563,13 @@ footer{
   }
 
   #nav-menu{
-  width:95%;
+  width:93%;
+  margin:0 auto;
   }
 
   #nav-menu .nav{
-  padding:25px 30px 25px 30px;
+  padding:16px 30px 16px 30px;
   font-weight:300;
-  margin:5px 0px;
   }
 
   .arrow{
@@ -599,7 +656,7 @@ footer{
     margin:20px auto;
   }
 
-    #left-content{
+  #left-content{
     max-width:inherit;
     padding:34px 30px;
     float:none;
@@ -620,7 +677,6 @@ footer{
     width:98%;
     margin:20px auto;
   }
-
 }
 
 
