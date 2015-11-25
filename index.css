@@ -301,7 +301,6 @@ a.active{
 .farmer-pics{
   background-color:#ededea;
   margin-top:30px;
-  width:100%;
 }
 
 .farm-container{
@@ -561,6 +560,11 @@ footer{
   .farm-description p{
     font-size:0.9em;
   }
+
+  .farmer-pics{
+    padding:0px 25%;
+    width:inerit;
+  }
 }
 
 @media (min-width:400px)and (max-width:579px){
@@ -610,6 +614,33 @@ footer{
   .main-container .fa-4x{
     font-size:3em;
   }
+
+/* About */
+  #about-panel{
+    padding:10px;
+  }
+
+  .farm{
+    height:inherit;
+  }
+
+  #awesome-farm{
+    text-align:center;
+    padding:10px 0px 0px;
+  }
+
+  .farm-contact{
+    font-size:0.6em;
+  }
+
+  .farm-description p{
+    font-size:0.9em;
+  }
+
+  .farmer-pics{
+    padding:0px 25%;
+    width:inerit;
+  }
 }
 
 @media (min-width:580px) and (max-width:600px){
@@ -654,6 +685,33 @@ footer{
   h1{
     font-size:3.8em;
   }
+
+/* About */
+  #about-panel{
+    padding:10px;
+  }
+
+  .farm{
+    height:inherit;
+  }
+
+  #awesome-farm{
+    text-align:center;
+    padding:10px 0px 0px;
+  }
+
+  .farm-contact{
+    font-size:0.6em;
+  }
+
+  .farm-description p{
+    font-size:0.9em;
+  }
+
+  .farmer-pics{
+    padding:0px 18%;
+    width:inerit;
+  }
 }
 
 @media (min-width:601px) and (max-width:699px){
@@ -683,9 +741,27 @@ footer{
     float:none;
     margin:auto;
   }
+
+/* About */
+  #about-panel{
+    padding:10px;
+  }
+
+  .farm-description p{
+    font-size:0.9em;
+  }
+
+  #awesome-farm{
+    padding:10px 20px 0px;
+  }
+
+  .farmer-pics{
+    padding:0px 18%;
+    width:inerit;
+  }
 }
 
-@media (min-width:700px) and (max-width:912px){
+@media (min-width:700px) and (max-width:914px){
   .main-container{
     width:96%;
     margin:20px auto;
@@ -705,12 +781,46 @@ footer{
   .nav-container{
     width:97%;
   }
+
+/*About*/
+  #about-panel{
+    padding:10px 30.5px;
+  }
+
+  .farm-container{
+    margin:1% 1%;
+  }
+
+  .farmer-pics{
+    padding:5px 8px;
+  }
+
+  .farm{
+    height:400px;
+  }
+
+  #awesome-farm{
+    padding:12px 58px 0px 0px;
+  }
 }
 
 @media (min-width:914px) and (max-width:960px){
   .main-container{
     width:98%;
     margin:20px auto;
+  }
+
+/* About */
+  #awesome-farm{
+    padding:10px 60px 0px;
+  }
+
+  .farm-container{
+    margin:1% 1%;
+  }
+
+  .farmer-pics{
+    padding:5px 24px;
   }
 }
 
