@@ -68,6 +68,7 @@ li{
 a{
   text-decoration:none;
   color:#242322;
+  padding:5px;
 }
 
 a:hover{
@@ -84,14 +85,13 @@ a.active{
 
 .container {
   background-color: #e5e5e4;
-  height:350px;
   margin:0 auto;
 }
 
 #logo{
-  height:250px;
   margin:auto auto;
   width:100%;
+  padding-bottom:50px;
 }
 
 #title{
@@ -132,8 +132,8 @@ a.active{
   border-right:solid 1px #e0b859;
 }
 
-#about{
-  border-right:solid 1px #e0b859;
+#shop{
+  border-left:solid 1px #e0b859;
 }
 
 /* Home main body content */
@@ -470,7 +470,7 @@ footer{
 }
 
   /* Media Queries */
-@media (min-width:320px)and (max-width:399px){
+@media (max-width:399px){
   .main-container{
     width:93%;
     margin:10px auto;
@@ -491,10 +491,6 @@ footer{
     margin:30px auto;
   }
 
-  .container{
-    height:400px;
-}
-
   #logo{
     width:65%;
   }
@@ -504,18 +500,18 @@ footer{
     padding:10px;
   }
 
+  #logo{
+    padding-bottom:10px;
+  }
+
   #nav-menu{
     width:90%;
-    margin:68px auto 0;
+    margin:0 auto;
   }
 
   #nav-menu .nav{
     padding:14px 18px;
     font-size:0.7em;
-  }
-
-  a{
-    padding:5px;
   }
 
   .main-container .fa-4x{
@@ -554,21 +550,17 @@ footer{
     margin:15px 0px ;
   }
 
-  .container{
-    height:400px;
-  }
-
-  #logo{
-  height:315px;
-  }
-
   #nav-menu{
   width:93%;
   margin:0 auto;
   }
 
+  #logo{
+    padding-bottom:10px;
+  }
+
   #nav-menu .nav{
-  padding:16px 30px 16px 30px;
+  padding:16px 24px;
   font-weight:300;
   }
 
@@ -604,13 +596,13 @@ footer{
     top:90px;
   }
 
-  .container{
-    height:420px;
+  #logo{
+    padding-bottom:10px;
   }
 
   #nav-menu{
     width:90%;
-    margin:60px auto;
+    margin:0 auto;
   }
 
   #nav-menu .nav{
@@ -625,10 +617,15 @@ footer{
     font-size:3.8em;
   }
 }
+
 @media (min-width:601px) and (max-width:699px){
   .main-container{
     width:96%;
     margin:20px auto;
+  }
+
+  #logo{
+    padding-bottom:20px;
   }
 
   #nav-menu{
@@ -665,10 +662,6 @@ footer{
   #right-content{
     float:none;
     margin:0px auto;
-  }
-
-  ul{
-    padding-bottom: 76px;
   }
 }
 
