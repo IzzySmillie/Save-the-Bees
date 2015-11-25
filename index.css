@@ -562,7 +562,7 @@ footer{
   }
 
   .farmer-pics{
-    padding:0px 25%;
+    /*padding:0px 25%;*/
     width:inerit;
   }
 }
@@ -638,7 +638,6 @@ footer{
   }
 
   .farmer-pics{
-    padding:0px 25%;
     width:inerit;
   }
 }
@@ -709,7 +708,6 @@ footer{
   }
 
   .farmer-pics{
-    padding:0px 18%;
     width:inerit;
   }
 }
@@ -744,7 +742,7 @@ footer{
 
 /* About */
   #about-panel{
-    padding:10px;
+    padding:10px 45px;
   }
 
   .farm-description p{
@@ -753,11 +751,11 @@ footer{
 
   #awesome-farm{
     padding:10px 20px 0px;
+    text-align:center;
   }
 
-  .farmer-pics{
-    padding:0px 18%;
-    width:inerit;
+  .farm{
+    height:450px;
   }
 }
 
@@ -791,12 +789,8 @@ footer{
     margin:1% 1%;
   }
 
-  .farmer-pics{
-    padding:5px 8px;
-  }
-
   .farm{
-    height:400px;
+    height:450px;
   }
 
   #awesome-farm{
@@ -819,11 +813,19 @@ footer{
     margin:1% 1%;
   }
 
-  .farmer-pics{
-    padding:5px 24px;
-  }
+}
+.small-row {
+  display: inline;
+  margin: 0 auto;
+  width: 331px;
 }
 
+@media (max-width:700px) {
+
+  .small-row {
+    display: block;
+  }
+}
 
 
 
