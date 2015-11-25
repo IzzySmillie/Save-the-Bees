@@ -516,16 +516,20 @@ footer{
   }
 
   #logo{
-    padding-bottom:10px;
+    padding-bottom:30px;
   }
 
-  #nav-menu{
-    width:90%;
+  .nav-container{
+    width:88%;
   }
 
   #nav-menu .nav{
     padding:14px 18px;
     font-size:0.7em;
+  }
+
+  #nav-menu{
+    height:80px;
   }
 
   .main-container .fa-4x{
@@ -586,8 +590,8 @@ footer{
     margin:15px 0px ;
   }
 
-  #nav-menu{
-  width:93%;
+  .nav-container{
+  width:90%;
   }
 
   #logo{
@@ -635,7 +639,7 @@ footer{
     padding-bottom:10px;
   }
 
-  #nav-menu{
+  .nav-container{
     width:90%;
   }
 
@@ -662,8 +666,8 @@ footer{
     padding-bottom:20px;
   }
 
-  #nav-menu{
-    width:86%;
+  .nav-container{
+    width:90%;
   }
 
   #nav-menu .nav{
@@ -696,6 +700,10 @@ footer{
   #right-content{
     float:none;
     margin:0px auto;
+  }
+
+  .nav-container{
+    width:97%;
   }
 }
 
