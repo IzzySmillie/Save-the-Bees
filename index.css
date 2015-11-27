@@ -1140,6 +1140,30 @@ footer{
   .cart-button{
     margin:10px 0px;
   }
+
+  #find-farm{
+    height:420px;
+  }
+
+  #honeyfarm-text{
+    width:40%;
+    float:right;
+    padding-bottom:0px;
+  }
+
+  #find-farm h3{
+    float:none;
+    width:auto;
+  }
+
+  #find-farm p{
+    padding-top:30px;
+  }
+
+  #map{
+    width:57%;
+    margin-right:0px;
+  }
 }
 
 @media (min-width:915px) and (max-width:960px){
