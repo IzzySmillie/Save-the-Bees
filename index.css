@@ -627,6 +627,7 @@ footer{
 
   #honeyfarm-text{
     padding-bottom:0px;
+    font-size:0.9em;
   }
 
   #find-farm h3{
@@ -1179,6 +1180,87 @@ footer{
 
   .farm-container{
     margin:1% 1%;
+  }
+
+/*Shop*/
+   .shop-top{
+    float:right;
+    width:45%;
+  }
+
+  .shop-top p{
+    margin-top:10px;
+  }
+
+  .shop-bott{
+    float:right;
+    width:45%;
+    clear:both;
+    margin-top:35px;
+  }
+
+  .honey-description{
+    margin:0px;
+  }
+
+  #shop-container{
+    padding-right:15px;
+    height:560px;
+  }
+
+  #shop-container img{
+    width:48%;
+  }
+
+  #shop-container h2{
+    float:none;
+    margin:0px;
+  }
+  #shop-container h3{
+    float:none;
+    margin:0px;
+  }
+
+  .shop-description{
+    margin:0px;
+  }
+
+  #shop-container p{
+    width:auto;
+    float:none;
+    padding-top:10px;
+  }
+
+  .price{
+    margin:10px 0px;
+  }
+
+  .cart-button{
+    margin:10px 0px;
+  }
+
+  #find-farm{
+    height:360px;
+  }
+
+  #honeyfarm-text{
+    width:42%;
+    float:right;
+    padding-bottom:0px;
+  }
+
+  #find-farm h3{
+    float:none;
+    width:auto;
+  }
+
+  #find-farm p{
+    padding-top:30px;
+  }
+
+  #map{
+    width:55%;
+    margin-right:0px;
   }
 
 }
