@@ -1284,8 +1284,29 @@ footer{
   .big-row{
   width:582px;
   margin:0 auto;
+  }
 }
+
+/*Logo scaling*/
+
+@media (min-width:618px) and (max-width:650px){
+  h1{
+    font-size:56px;
+  }
 }
+
+@media (min-width:600px) and (max-width:617px){
+  h1{
+    font-size:53px;
+  }
+}
+
+@media (min-width:400px) and (max-width:580px){
+  h1{
+    font-size:51px;
+  }
+}
+
 
 
 
