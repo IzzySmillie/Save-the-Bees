@@ -1262,7 +1262,6 @@ footer{
     width:55%;
     margin-right:0px;
   }
-
 }
   .small-row {
   display: inline;
@@ -1275,6 +1274,17 @@ footer{
   .small-row {
     display: block;
   }
+
+  .big-row{
+    width:auto;
+  }
+}
+
+@media (min-width:700px) and (max-width:960px){
+  .big-row{
+  width:582px;
+  margin:0 auto;
+}
 }
 
 
