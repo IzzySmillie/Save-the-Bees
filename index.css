@@ -476,6 +476,7 @@ footer{
 }
 
   /* Media Queries */
+
 @media (max-width:399px){
   .main-container{
     width:93%;
@@ -562,9 +563,61 @@ footer{
   }
 
   .farmer-pics{
-    /*padding:0px 25%;*/
     width:inerit;
   }
+
+  /*Shop*/
+
+  .panel{
+    padding:10px;
+  }
+
+  #shop-container{
+    height:inherit;
+  }
+
+  #shop-container h2{
+  float:none;
+  margin:0px;
+  font-size:1.8em;
+  }
+
+  #shop-container h3{
+  float:none;
+  margin:0px;
+  }
+
+  #shop-container img{
+  margin:0px;
+  position:static;
+  }
+
+  #shop-container p{
+  float:none;
+  width:inherit;
+  text-align:center;
+  font-size:0.9em;
+  padding-top: 5px;
+  }
+
+  .honey-description{
+  margin:0px;
+  padding:15px 5px;
+  }
+
+  .shop-description{
+    margin:0px;
+  }
+
+  .price{
+    margin:0px;
+  }
+
+  .cart-button{
+    margin:0px;
+    margin-top:10px;
+  }
+
 }
 
 @media (min-width:400px)and (max-width:579px){
@@ -798,7 +851,7 @@ footer{
   }
 }
 
-@media (min-width:914px) and (max-width:960px){
+@media (min-width:915px) and (max-width:960px){
   .main-container{
     width:98%;
     margin:20px auto;
@@ -814,7 +867,7 @@ footer{
   }
 
 }
-.small-row {
+  .small-row {
   display: inline;
   margin: 0 auto;
   width: 331px;
