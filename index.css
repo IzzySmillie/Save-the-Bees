@@ -1082,6 +1082,64 @@ footer{
   #awesome-farm{
     padding:12px 58px 0px 0px;
   }
+
+/*Shop*/
+
+  .shop-top{
+    float:right;
+    width:45%;
+  }
+
+  .shop-top p{
+    margin-top:10px;
+  }
+
+  .shop-bott{
+    float:right;
+    width:45%;
+    clear:both;
+    margin-top:25px;
+  }
+
+  .honey-description{
+    margin:0px;
+  }
+
+  #shop-container{
+    padding-right:15px;
+    height:560px;
+  }
+
+  #shop-container img{
+    width:48%;
+  }
+
+  #shop-container h2{
+    float:none;
+    margin:0px;
+  }
+  #shop-container h3{
+    float:none;
+    margin:0px;
+  }
+
+  .shop-description{
+    margin:0px;
+  }
+
+  #shop-container p{
+    width:auto;
+    float:none;
+    padding-top:10px;
+  }
+
+  .price{
+    margin:10px 0px;
+  }
+
+  .cart-button{
+    margin:10px 0px;
+  }
 }
 
 @media (min-width:915px) and (max-width:960px){
