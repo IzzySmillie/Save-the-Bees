@@ -1081,7 +1081,8 @@ footer{
   }
 
   #awesome-farm{
-    padding:12px 58px 0px 0px;
+    padding:14px 0px 0px;
+    text-align:center;
   }
 
 /*Shop*/
@@ -1175,7 +1176,8 @@ footer{
 
 /* About */
   #awesome-farm{
-    padding:10px 60px 0px;
+    padding:14px 0px 0px;
+    text-align:center;
   }
 
   .farm-container{
@@ -1263,13 +1265,14 @@ footer{
     margin-right:0px;
   }
 }
+
   .small-row {
-  display: inline;
-  margin: 0 auto;
-  width: 331px;
+    display: inline;
+    margin: 0 auto;
+    width: 331px;
 }
 
-@media (max-width:700px) {
+@media (max-width:700px){
 
   .small-row {
     display: block;
@@ -1284,6 +1287,22 @@ footer{
   .big-row{
   width:582px;
   margin:0 auto;
+  }
+}
+
+@media (min-width:601px) and (max-width:915px){
+  #right-content{
+    max-width:inherit;
+    float:none;
+    margin:auto;
+  }
+
+  #help-image{
+    float:right;
+  }
+
+  ul{
+    margin-top:14px;
   }
 }
 
