@@ -5,7 +5,7 @@
 
 body {
   background-color: #e0b859;
-  font-family: Montserrat,helvetica,sans-serif;
+  font-family: helvetica,sans-serif;
   color:#242322;
 
 }
@@ -195,7 +195,7 @@ a.active{
 
 #right-content{
   max-width:250px;
-  padding:40px 40px 24px 40px;
+  padding:40px 40px 14px 40px;
   float:right;
 }
 
@@ -340,6 +340,7 @@ a.active{
 
 #shop-container{
   height:580px;
+  padding-right:20px;
 }
 
 #shop-container img{
