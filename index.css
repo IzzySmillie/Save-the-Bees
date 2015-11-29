@@ -667,12 +667,6 @@ footer{
     float:none;
   }
 
-  #right-content{
-    width:90%;
-    margin:20px auto;
-    float:none;
-  }
-
   h2{
     font-size:2.5em;
     padding-bottom:30px;
@@ -813,13 +807,6 @@ footer{
     width:90%;
     padding:28px;
     float:none;
-  }
-
-  #right-content{
-    width:100%;
-    padding:40px;
-    margin:20px auto;
-    float:inherit;
   }
 
   .arrow{
@@ -969,11 +956,6 @@ footer{
     max-width:inherit;
   }
 
-  #right-content{
-    float:none;
-    margin:auto;
-  }
-
 /* About */
   #about-panel{
     padding:10px 45px;
@@ -1069,11 +1051,6 @@ footer{
     max-width:inherit;
     padding:34px 30px;
     float:none;
-  }
-
-  #right-content{
-    float:none;
-    margin:0px auto;
   }
 
   .nav-container{
@@ -1303,7 +1280,7 @@ footer{
   }
 }
 
-@media (min-width:601px) and (max-width:916px){
+@media (min-width:580px) and (max-width:916px){
   #right-content{
     max-width:inherit;
     float:none;
@@ -1316,6 +1293,30 @@ footer{
 
   ul{
     margin-top:14px;
+  }
+}
+
+@media (min-width:400px) and (max-width:579px){
+  #right-content{
+    max-width:inherit;
+    float:none;
+    margin:auto;
+  }
+
+  ul{
+    margin-top:14px;
+  }
+}
+
+@media (min-width:520px) and (max-width:579px){
+  #help-image{
+    margin:10px 22%;
+  }
+}
+
+@media (min-width:400px) and (max-width:520px){
+  #help-image{
+    margin:10px 13%;
   }
 }
 
