@@ -240,7 +240,7 @@ a.active{
 
 #awesome-farm{
   text-align:right;
-  padding:5px 83px 0px 0px;
+  padding:10px 83px 0px 0px;
 }
 
 .farm-detail{
@@ -360,8 +360,7 @@ a.active{
 #shop-container h3{
   float:right;
   position:relative;
-  margin:78px -300px;
-  margin-bottom: 0;
+  margin:78px -281px;
   text-transform: none;
   font-weight: 100;
 }
@@ -810,7 +809,7 @@ footer{
   }
 
   .arrow{
-    top:90px;
+    top:40%;
   }
 
   #logo{
@@ -956,6 +955,10 @@ footer{
     max-width:inherit;
   }
 
+    .arrow{
+    top:36%;
+  }
+
 /* About */
   #about-panel{
     padding:10px 45px;
@@ -1055,6 +1058,10 @@ footer{
 
   .nav-container{
     width:97%;
+  }
+
+  .arrow{
+    top:40%;
   }
 
 /*About*/
